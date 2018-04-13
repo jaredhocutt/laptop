@@ -1,0 +1,11 @@
+- src: jaredhocutt.atom
+- src: jaredhocutt.dconf-settings
+- src: jaredhocutt.dotfiles
+- src: jaredhocutt.gnome-extensions
+- src: jaredhocutt.google-chrome
+- src: jaredhocutt.insync
+- src: jaredhocutt.libvirt
+- src: jaredhocutt.oh-my-zsh
+- src: jaredhocutt.openssh-server
+- src: jaredhocutt.restic
+- src: jaredhocutt.slack

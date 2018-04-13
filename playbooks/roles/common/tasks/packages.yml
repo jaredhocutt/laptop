@@ -1,0 +1,29 @@
+---
+
+- name: Add common repos (RPMs)
+  dnf:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ common_repos_rpms }}"
+  become: yes
+
+- name: Install libselinux-python
+  dnf:
+    name: libselinux-python
+    state: present
+  become: yes
+
+- name: Install common packages
+  dnf:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ common_packages }}"
+  become: yes
+
+- name: Keep additional kernels
+  lineinfile:
+    path: /etc/dnf/dnf.conf
+    regexp: "^installonly_limit="
+    line: "installonly_limit={{ common_kernel_install_limit }}"
+    state: present
+  become: yes

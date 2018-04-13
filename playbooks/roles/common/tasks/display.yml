@@ -1,0 +1,10 @@
+---
+
+- name: Create xorg conf for additional monitor resolutions
+  copy:
+    src: 50-monitor.conf
+    dest: /etc/X11/xorg.conf.d/50-monitor.conf
+    owner: root
+    group: root
+    mode: 0644
+  become: yes

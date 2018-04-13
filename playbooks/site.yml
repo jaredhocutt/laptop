@@ -1,0 +1,23 @@
+---
+
+- hosts: localhost
+  connection: local
+
+  vars_files:
+    - "{{ playbook_dir }}/vars/main.yml"
+    - "{{ playbook_dir }}/vars/secrets.yml"
+
+  roles:
+    - common
+    - jaredhocutt.oh-my-zsh
+    - jaredhocutt.atom
+    - jaredhocutt.dconf-settings
+    - jaredhocutt.dotfiles
+    - jaredhocutt.gnome-extensions
+    - jaredhocutt.google-chrome
+    - jaredhocutt.insync
+    - jaredhocutt.libvirt
+    - jaredhocutt.openssh-server
+    - jaredhocutt.restic
+    - jaredhocutt.slack
+    - redhat-vpn

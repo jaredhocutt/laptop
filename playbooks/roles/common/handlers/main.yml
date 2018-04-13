@@ -1,0 +1,5 @@
+---
+
+- name: generate_grub_config
+  command: grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+  become: yes

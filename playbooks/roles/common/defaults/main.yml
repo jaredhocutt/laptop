@@ -1,0 +1,6 @@
+---
+
+common_packages: []
+common_repos_rpms: []
+
+common_kernel_install_limit: 3

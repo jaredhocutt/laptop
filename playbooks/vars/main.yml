@@ -1,0 +1,105 @@
+---
+
+################################################################################
+# common
+################################################################################
+
+common_packages_list:
+  groups:
+    - '@C Development Tools and Libraries'
+    - '@Development Tools'
+  fonts:
+    - adobe-source-code-pro-fonts
+    - adobe-source-sans-pro-fonts
+    - adobe-source-serif-pro-fonts
+    - google-noto-mono-fonts
+  general:
+    - ansible
+    - buildah
+    - dnf-plugin-system-upgrade
+    - git
+    - git-lfs
+    - origin-clients
+    - python2-virtualenvwrapper
+    - redhat-rpm-config
+    - stow
+    - vim
+    - wget
+  gui:
+    - blivet-gui
+    - dconf-editor
+    - gimp
+    - gnome-tweak-tool
+    - tilix
+    - vlc
+
+common_packages: "{{ common_packages_list.groups }} + {{ common_packages_list.fonts }} + {{ common_packages_list.general }} + {{ common_packages_list.gui }}"
+
+common_repos_rpms:
+  - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
+  - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{{ ansible_distribution_major_version }}.noarch.rpm
+
+common_kernel_install_limit: 6
+
+################################################################################
+# jaredhocutt.atom
+################################################################################
+
+atom_packages:
+  - atom-beautify
+  - file-icons
+  - git-plus
+  - language-hugo
+  - language-ini
+  - minimap
+  - remote-edit
+  - language-docker
+
+################################################################################
+# jaredhocutt.dconf-settings
+################################################################################
+
+dconf_settings:
+  - key: /org/gnome/desktop/wm/preferences/button-layout
+    value: "'appmenu:minimize,maximize,close'"
+  - key: /org/gnome/mutter/workspaces-only-on-primary
+    value: "false"
+  - key: /org/gnome/desktop/interface/clock-show-date
+    value: "true"
+  - key: /org/gnome/desktop/interface/clock-format
+    value: "'12h'"
+  - key: /org/gnome/desktop/datetime/automatic-timezone
+    value: "true"
+  - key: /org/gnome/desktop/interface/show-battery-percentage
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-enabled
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-temperature
+    value: "uint32 5250"
+
+################################################################################
+# jaredhocutt.dotfiles
+################################################################################
+
+dotfiles_enabled:
+  - name: git
+    dotfile: ~/.gitconfig
+  - name: vim
+    dotfile: ~/.vimrc
+  - name: zsh
+    dotfile: ~/.zshrc
+
+################################################################################
+# jaredhocutt.gnome-extensions
+################################################################################
+
+gnome_extension_ids:
+  - 964  # Do Not Disturb Button by nls1729
+  - 770  # Force Quit by megh
+  - 921  # Multi Monitors Add-On by spin83
+  - 234  # Steal My Focus by sstent
+  - 826  # Suspend Button by laser_b
+  - 906  # Sound Input & Output Device Chooser by kgshank
+  - 118  # No Topleft Hot Corner by azuri
+  - 905  # Refresh Wifi Connections by kgshank
+  - 1031 # TopIcons Plus by phocean
