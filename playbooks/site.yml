@@ -13,6 +13,7 @@
     - jaredhocutt.atom
     - jaredhocutt.dconf-settings
     - jaredhocutt.dotfiles
+    - jaredhocutt.gitkraken
     - jaredhocutt.gnome-extensions
     - jaredhocutt.google-chrome
     - jaredhocutt.insync
@@ -20,4 +21,6 @@
     - jaredhocutt.openssh-server
     - jaredhocutt.restic
     - jaredhocutt.slack
+    - jaredhocutt.teamviewer
+    - jaredhocutt.transmission
     - redhat-vpn

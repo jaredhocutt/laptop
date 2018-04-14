@@ -1,6 +1,7 @@
 - src: jaredhocutt.atom
 - src: jaredhocutt.dconf-settings
 - src: jaredhocutt.dotfiles
+- src: jaredhocutt.gitkraken
 - src: jaredhocutt.gnome-extensions
 - src: jaredhocutt.google-chrome
 - src: jaredhocutt.insync
@@ -9,3 +10,5 @@
 - src: jaredhocutt.openssh-server
 - src: jaredhocutt.restic
 - src: jaredhocutt.slack
+- src: jaredhocutt.teamviewer
+- src: jaredhocutt.transmission
