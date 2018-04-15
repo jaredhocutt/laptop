@@ -19,6 +19,7 @@ common_packages_list:
     - dnf-plugin-system-upgrade
     - git
     - git-lfs
+    - iperf3
     - origin-clients
     - python2-virtualenvwrapper
     - redhat-rpm-config
