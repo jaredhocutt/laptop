@@ -27,6 +27,7 @@ common_packages_list:
     - vim
     - wget
   gui:
+    - audacity
     - blivet-gui
     - dconf-editor
     - gimp
