@@ -32,6 +32,7 @@ common_packages_list:
     - dconf-editor
     - gimp
     - gnome-tweak-tool
+    - obs-studio
     - tilix
     - vlc
 
