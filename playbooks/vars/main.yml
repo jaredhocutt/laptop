@@ -13,6 +13,7 @@ common_packages_list:
     - adobe-source-sans-pro-fonts
     - adobe-source-serif-pro-fonts
     - google-noto-mono-fonts
+    - overpass-fonts
   general:
     - ansible
     - buildah
