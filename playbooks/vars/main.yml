@@ -20,6 +20,7 @@ common_packages_list:
     - dnf-plugin-system-upgrade
     - git
     - git-lfs
+    - golang
     - iperf3
     - origin-clients
     - podman
