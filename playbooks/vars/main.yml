@@ -108,3 +108,13 @@ gnome_extension_ids:
   - 118  # No Topleft Hot Corner by azuri
   - 905  # Refresh Wifi Connections by kgshank
   - 1031 # TopIcons Plus by phocean
+
+
+################################################################################
+# jaredhocutt.vscode
+################################################################################
+
+vscode_extensions:
+  - lukehoban.Go
+  - ms-python.python
+  - robertohuertasm.vscode-icons
