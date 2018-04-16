@@ -22,6 +22,7 @@ common_packages_list:
     - git-lfs
     - iperf3
     - origin-clients
+    - podman
     - python2-virtualenvwrapper
     - redhat-rpm-config
     - stow
