@@ -20,6 +20,12 @@
   with_items: "{{ common_packages }}"
   become: yes
 
+- name: Install Python user packages
+  pip:
+    name: "{{ item }}"
+    extra_args: "--user"
+  with_items: "{{ common_python_user_packages }}"
+
 - name: Keep additional kernels
   lineinfile:
     path: /etc/dnf/dnf.conf
