@@ -8,6 +8,7 @@
     - "{{ playbook_dir }}/vars/secrets.yml"
 
   roles:
+    - jaredhocutt.rpmfusion
     - common
     - jaredhocutt.oh-my-zsh
     - jaredhocutt.atom

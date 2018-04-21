@@ -41,9 +41,6 @@ common_packages_list:
 
 common_packages: "{{ common_packages_list.groups }} + {{ common_packages_list.fonts }} + {{ common_packages_list.general }} + {{ common_packages_list.gui }}"
 
-common_repos_rpms:
-  - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
-  - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{{ ansible_distribution_major_version }}.noarch.rpm
 common_python_user_packages:
   - pipenv
 
