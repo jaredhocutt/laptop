@@ -7,12 +7,13 @@ Provides common configuration for my laptop.
 None
 
 ## Role Variables
-| Variable        | Required | Default  | Description |
-| --------------- | -------- | -------- | ----------- |
-| `common_packages`  | :x:      | `[]` |             |
-| `common_repos_rpms` | :x:      | `[]`     |             |
-| `common_kernel_install_limit` | :x:      | `3`     |             |
 
+| Variable                      | Required | Default | Description |
+| ----------------------------- | -------- | ------- | ----------- |
+| `common_packages`             | :x:      | `[]`    |             |
+| `common_repos_rpms`           | :x:      | `[]`    |             |
+| `common_python_user_packages` | :x:      | `[]`    |             |
+| `common_kernel_install_limit` | :x:      | `3`     |             |
 
 ## Dependencies
 
