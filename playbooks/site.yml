@@ -20,9 +20,9 @@
     - jaredhocutt.insync
     - jaredhocutt.libvirt
     - jaredhocutt.openssh-server
+    - jaredhocutt.redhat-vpn
     - jaredhocutt.restic
     - jaredhocutt.slack
     - jaredhocutt.teamviewer
     - jaredhocutt.transmission
     - jaredhocutt.vscode
-    - redhat-vpn
