@@ -25,6 +25,7 @@ common_packages_list:
     - mediawriter
     - origin-clients
     - podman
+    - prename
     - python2-virtualenvwrapper
     - redhat-rpm-config
     - stow
