@@ -8,22 +8,62 @@
     - "{{ playbook_dir }}/vars/secrets.yml"
 
   roles:
-    - jaredhocutt.rpmfusion
-    - common
-    - jaredhocutt.oh-my-zsh
-    - jaredhocutt.atom
-    - jaredhocutt.dconf-settings
-    - jaredhocutt.dotfiles
-    - jaredhocutt.gitkraken
-    - jaredhocutt.gnome-extensions
-    - jaredhocutt.google-chrome
-    - jaredhocutt.hp-printer
-    - jaredhocutt.insync
-    - jaredhocutt.libvirt
-    - jaredhocutt.openssh-server
-    - jaredhocutt.redhat-vpn
-    - jaredhocutt.restic
-    - jaredhocutt.slack
-    - jaredhocutt.teamviewer
-    - jaredhocutt.transmission
-    - jaredhocutt.vscode
+    - role: jaredhocutt.rpmfusion
+      tags: always
+
+    - role: common
+      tags: always
+
+    - role: jaredhocutt.oh-my-zsh
+      tags: oh-my-zsh
+
+    - role: jaredhocutt.atom
+      tags: atom
+
+    - role: jaredhocutt.dconf-settings
+      tags: dconf-settings
+
+    - role: jaredhocutt.dotfiles
+      tags: dotfiles
+
+    - role: jaredhocutt.gitkraken
+      tags: gitkraken
+
+    - role: jaredhocutt.gnome-extensions
+      tags: gnome-extensions
+
+    - role: jaredhocutt.google-chrome
+      tags: google-chrome
+
+    - role: jaredhocutt.hp-printer
+      tags: hp-printer
+
+    - role: jaredhocutt.insync
+      tags: insync
+
+    - role: jaredhocutt.libvirt
+      tags: libvirt
+
+    - role: jaredhocutt.openssh-server
+      tags: openssh-server
+
+    - role: jaredhocutt.private-internet-access
+      tags: private-internet-access
+
+    - role: jaredhocutt.redhat-vpn
+      tags: redhat-vpn
+
+    - role: jaredhocutt.restic
+      tags: restic
+
+    - role: jaredhocutt.slack
+      tags: slack
+
+    - role: jaredhocutt.teamviewer
+      tags: teamviewer
+
+    - role: jaredhocutt.transmission
+      tags: transmission
+
+    - role: jaredhocutt.vscode
+      tags: vscode
