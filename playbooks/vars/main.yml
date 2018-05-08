@@ -56,13 +56,17 @@ common_kernel_install_limit: 6
 
 atom_packages:
   - atom-beautify
+  - atom-material-ui
+  - atom-material-syntax
+  - atom-material-syntax-dark
+  - atom-material-syntax-light
   - file-icons
   - git-plus
+  - language-docker
   - language-hugo
   - language-ini
   - minimap
   - remote-edit
-  - language-docker
 
 ################################################################################
 # jaredhocutt.dconf-settings
