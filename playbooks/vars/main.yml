@@ -37,6 +37,7 @@ common_packages_list:
     - calibre
     - dconf-editor
     - gimp
+    - git-cola
     - gnome-tweak-tool
     - obs-studio
     - tilix
