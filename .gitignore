@@ -3,7 +3,8 @@
 ###############################################################################
 
 playbooks/vars/*
-!playbooks/vars/main.yml
+!playbooks/vars/precision.yml
+!playbooks/vars/thinkpad.yml
 
 playbooks/roles/*
 !playbooks/roles/common

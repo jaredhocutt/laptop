@@ -3,7 +3,7 @@
 - hosts: localhost
 
   vars_files:
-    - "{{ playbook_dir }}/vars/precision.yml"
+    - "{{ playbook_dir }}/vars/thinkpad.yml"
     - "{{ playbook_dir }}/vars/secrets.yml"
 
   roles:
@@ -18,6 +18,9 @@
 
     - role: jaredhocutt.atom
       tags: atom
+
+    - role: jaredhocutt.bluejeans
+      tags: bluejeans
 
     - role: jaredhocutt.dconf-settings
       tags: dconf-settings
@@ -34,9 +37,6 @@
     - role: jaredhocutt.google-chrome
       tags: google-chrome
 
-    - role: jaredhocutt.hp-printer
-      tags: hp-printer
-
     - role: jaredhocutt.insync
       tags: insync
 
@@ -46,14 +46,14 @@
     - role: jaredhocutt.openssh-server
       tags: openssh-server
 
-    - role: jaredhocutt.private-internet-access
-      tags: private-internet-access
-
     - role: jaredhocutt.redhat-vpn
       tags: redhat-vpn
 
     - role: jaredhocutt.restic
       tags: restic
+
+    - role: jaredhocutt.rocketchat
+      tags: rocketchat
 
     - role: jaredhocutt.slack
       tags: slack
