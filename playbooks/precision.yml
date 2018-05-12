@@ -40,6 +40,9 @@
     - role: jaredhocutt.insync
       tags: insync
 
+    - role: jaredhocutt.jetbrains-toolbox
+      tags: jetbrains-toolbox
+
     - role: jaredhocutt.libvirt
       tags: libvirt
 
