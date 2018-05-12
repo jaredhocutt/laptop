@@ -16,6 +16,7 @@ common_packages_list:
     - overpass-fonts
   general:
     - ansible
+    - awscli
     - buildah
     - dnf-plugin-system-upgrade
     - git
@@ -26,6 +27,7 @@ common_packages_list:
     - origin-clients
     - podman
     - prename
+    - pylint
     - python2-virtualenvwrapper
     - redhat-rpm-config
     - stow
