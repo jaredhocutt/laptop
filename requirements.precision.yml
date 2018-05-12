@@ -6,6 +6,7 @@
 - src: jaredhocutt.google-chrome
 - src: jaredhocutt.hp-printer
 - src: jaredhocutt.insync
+- src: jaredhocutt.jetbrains-toolbox
 - src: jaredhocutt.libvirt
 - src: jaredhocutt.oh-my-zsh
 - src: jaredhocutt.openssh-server
