@@ -41,6 +41,7 @@ common_packages_list:
     - chromium
     - dconf-editor
     - gimp
+    - git-cola
     - gnome-tweak-tool
     - kdenlive
     - obs-studio
