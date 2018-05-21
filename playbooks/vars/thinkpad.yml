@@ -38,6 +38,7 @@ common_packages_list:
   gui:
     - audacity
     - blivet-gui
+    - chromium
     - dconf-editor
     - gimp
     - gnome-tweak-tool
