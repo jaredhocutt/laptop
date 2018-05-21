@@ -16,6 +16,7 @@ common_packages_list:
     - overpass-fonts
   general:
     - ansible
+    - awscli
     - buildah
     - certbot
     - dnf-plugin-system-upgrade
