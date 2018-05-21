@@ -45,6 +45,7 @@ common_packages_list:
     - gnome-tweak-tool
     - kdenlive
     - obs-studio
+    - solaar
     - tilix
     - vlc
 
