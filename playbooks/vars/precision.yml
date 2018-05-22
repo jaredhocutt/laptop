@@ -30,6 +30,7 @@ common_packages_list:
     - pylint
     - python2-virtualenvwrapper
     - redhat-rpm-config
+    - sshuttle
     - stow
     - vim
     - wget
