@@ -27,7 +27,6 @@ common_packages_list:
     - origin-clients
     - podman
     - prename
-    - pylint
     - python2-virtualenvwrapper
     - redhat-rpm-config
     - sshuttle
