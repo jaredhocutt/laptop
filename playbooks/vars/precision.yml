@@ -18,6 +18,7 @@ common_packages_list:
     - ansible
     - awscli
     - buildah
+    - certbot
     - dnf-automatic
     - dnf-plugin-system-upgrade
     - git
