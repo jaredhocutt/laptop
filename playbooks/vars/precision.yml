@@ -125,6 +125,6 @@ gnome_extension_ids:
 ################################################################################
 
 vscode_extensions:
-  - lukehoban.Go
   - ms-python.python
+  - ms-vscode.Go
   - robertohuertasm.vscode-icons
