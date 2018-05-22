@@ -61,7 +61,7 @@ common_kernel_install_limit: 6
 # jaredhocutt.atom
 ################################################################################
 
-atom_version: v1.26.1
+atom_version: v1.27.1
 
 atom_packages:
   - atom-beautify
