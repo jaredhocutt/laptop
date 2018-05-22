@@ -42,6 +42,7 @@ common_packages_list:
     - git-cola
     - gnome-tweak-tool
     - obs-studio
+    - solaar
     - tilix
     - vlc
 
