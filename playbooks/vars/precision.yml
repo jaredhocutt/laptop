@@ -46,6 +46,7 @@ common_packages_list:
     - kdenlive
     - obs-studio
     - solaar
+    - sqlitebrowser
     - tilix
     - vlc
 
