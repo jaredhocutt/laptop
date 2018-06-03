@@ -15,6 +15,7 @@ common_packages_list:
     - google-noto-mono-fonts
     - overpass-fonts
   general:
+    - android-tools
     - ansible
     - awscli
     - buildah
@@ -34,6 +35,7 @@ common_packages_list:
     - sshuttle
     - stow
     - vim
+    - weechat
     - wget
   gui:
     - audacity
