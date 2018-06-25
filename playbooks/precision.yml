@@ -19,6 +19,9 @@
     - role: jaredhocutt.atom
       tags: atom
 
+    - role: jaredhocutt.azure-cli
+      tags: azure-cli
+
     - role: jaredhocutt.dconf-settings
       tags: dconf-settings
 
