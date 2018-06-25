@@ -93,6 +93,10 @@ dconf_settings:
     value: "true"
   - key: /org/gnome/desktop/interface/clock-format
     value: "'12h'"
+  - key: /org/gnome/desktop/interface/scaling-factor
+    value: "uint32 1"
+  - key: /org/gnome/desktop/interface/text-scaling-factor
+    value: "1.0"
   - key: /org/gnome/desktop/datetime/automatic-timezone
     value: "true"
   - key: /org/gnome/desktop/interface/show-battery-percentage
