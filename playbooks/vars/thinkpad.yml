@@ -70,12 +70,12 @@ atom_packages:
   - atom-material-syntax-dark
   - atom-material-syntax-light
   - file-icons
+  - ftp-remote-edit
   - git-plus
   - language-docker
   - language-hugo
   - language-ini
   - minimap
-  - remote-edit
 
 ################################################################################
 # jaredhocutt.dconf-settings
