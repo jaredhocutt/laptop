@@ -37,6 +37,7 @@ common_packages_list:
     - vim
     - weechat
     - wget
+    - youtube-dl
   gui:
     - audacity
     - blivet-gui
