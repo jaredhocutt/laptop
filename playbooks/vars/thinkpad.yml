@@ -28,6 +28,7 @@ common_packages_list:
     - iperf3
     - jq
     - mediawriter
+    - openldap-clients
     - origin-clients
     - podman
     - prename
