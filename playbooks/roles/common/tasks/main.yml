@@ -1,9 +1,11 @@
 ---
 
-- include_tasks: packages.yml
+- import_tasks: packages.yml
 
-- include_tasks: display.yml
+- import_tasks: display.yml
 
-- include_tasks: grub.yml
+- import_tasks: grub.yml
 
-- include_tasks: console.yml
+- import_tasks: console.yml
+
+- import_tasks: networking.yml

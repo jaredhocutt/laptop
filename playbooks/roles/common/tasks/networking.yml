@@ -1,0 +1,10 @@
+---
+
+- name: Disable wifi when ethernet is in use
+  copy:
+    src: 99-wlan
+    dest: /etc/NetworkManager/dispatcher.d/99-wlan
+    owner: root
+    group: root
+    mode: 0755
+  become: yes
