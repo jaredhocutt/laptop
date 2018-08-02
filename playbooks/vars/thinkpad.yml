@@ -31,6 +31,7 @@ common_packages_list:
     - openldap-clients
     - origin-clients
     - podman
+    - policycoreutils-gui
     - prename
     - python2-virtualenvwrapper
     - redhat-rpm-config
