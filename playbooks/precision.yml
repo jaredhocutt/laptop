@@ -13,17 +13,17 @@
     - role: common
       tags: always
 
-    - role: jaredhocutt.oh-my-zsh
-      tags: oh-my-zsh
+    - role: jaredhocutt.oh_my_zsh
+      tags: oh_my_zsh
 
     - role: jaredhocutt.atom
       tags: atom
 
-    - role: jaredhocutt.azure-cli
-      tags: azure-cli
+    - role: jaredhocutt.azure_cli
+      tags: azure_cli
 
-    - role: jaredhocutt.dconf-settings
-      tags: dconf-settings
+    - role: jaredhocutt.dconf_settings
+      tags: dconf_settings
 
     - role: jaredhocutt.dotfiles
       tags: dotfiles
@@ -31,14 +31,14 @@
     - role: jaredhocutt.gitkraken
       tags: gitkraken
 
-    - role: jaredhocutt.gnome-extensions
-      tags: gnome-extensions
+    - role: jaredhocutt.gnome_extensions
+      tags: gnome_extensions
 
-    - role: jaredhocutt.google-chrome
-      tags: google-chrome
+    - role: jaredhocutt.google_chrome
+      tags: google_chrome
 
-    - role: jaredhocutt.hp-printer
-      tags: hp-printer
+    - role: jaredhocutt.hp_printer
+      tags: hp_printer
 
     - role: jaredhocutt.hugo
       tags: hugo
@@ -46,20 +46,20 @@
     - role: jaredhocutt.insync
       tags: insync
 
-    - role: jaredhocutt.jetbrains-toolbox
-      tags: jetbrains-toolbox
+    - role: jaredhocutt.jetbrains_toolbox
+      tags: jetbrains_toolbox
 
     - role: jaredhocutt.libvirt
       tags: libvirt
 
-    - role: jaredhocutt.openssh-server
-      tags: openssh-server
+    - role: jaredhocutt.openssh_server
+      tags: openssh_server
 
-    - role: jaredhocutt.private-internet-access
-      tags: private-internet-access
+    - role: jaredhocutt.private_internet_access
+      tags: private_internet_access
 
-    - role: jaredhocutt.redhat-vpn
-      tags: redhat-vpn
+    - role: jaredhocutt.redhat_vpn
+      tags: redhat_vpn
 
     - role: jaredhocutt.restic
       tags: restic

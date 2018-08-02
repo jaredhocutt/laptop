@@ -1,18 +1,18 @@
 - src: jaredhocutt.atom
 - src: jaredhocutt.bluejeans
-- src: jaredhocutt.dconf-settings
+_
 - src: jaredhocutt.dotfiles
 - src: jaredhocutt.gitkraken
-- src: jaredhocutt.gnome-extensions
-- src: jaredhocutt.google-chrome
+- src: jaredhocutt.gnome_extensions
+- src: jaredhocutt.google_chrome
 - src: jaredhocutt.insync
-- src: jaredhocutt.jetbrains-toolbox
+- src: jaredhocutt.jetbrains_toolbox
 - src: jaredhocutt.libvirt
-- src: jaredhocutt.oh-my-zsh
-- src: jaredhocutt.openssh-server
-- src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
+- src: jaredhocutt.oh_my_zsh
+- src: jaredhocutt.openssh_server
+- src: git@github.com:jaredhocutt/ansible_redhat_vpn.git
   scm: git
-  name: jaredhocutt.redhat-vpn
+  name: jaredhocutt.redhat_vpn
 - src: jaredhocutt.restic
 - src: jaredhocutt.rocketchat
 - src: jaredhocutt.rpmfusion
