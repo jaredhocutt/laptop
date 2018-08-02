@@ -43,6 +43,7 @@ common_packages_list:
     - sshuttle
     - stow
     - vim
+    - weechat
     - wget
   gui:
     - audacity
@@ -52,6 +53,7 @@ common_packages_list:
     - gimp
     - git-cola
     - gnome-tweak-tool
+    - hexchat
     - kdenlive
     - obs-studio
     - solaar
