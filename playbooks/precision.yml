@@ -40,6 +40,9 @@
     - role: jaredhocutt.hp-printer
       tags: hp-printer
 
+    - role: jaredhocutt.hugo
+      tags: hugo
+
     - role: jaredhocutt.insync
       tags: insync
 
