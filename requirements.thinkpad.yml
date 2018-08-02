@@ -1,6 +1,6 @@
 - src: jaredhocutt.atom
 - src: jaredhocutt.bluejeans
-_
+- src: jaredhocutt.dconf_settings
 - src: jaredhocutt.dotfiles
 - src: jaredhocutt.gitkraken
 - src: jaredhocutt.gnome_extensions
