@@ -37,6 +37,9 @@
     - role: jaredhocutt.google_chrome
       tags: google_chrome
 
+    - role: jaredhocutt.hugo
+      tags: hugo
+
     - role: jaredhocutt.insync
       tags: insync
 
