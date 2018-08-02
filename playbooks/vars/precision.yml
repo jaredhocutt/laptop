@@ -37,6 +37,7 @@ common_packages_list:
     - python3-devel
     - redhat-rpm-config
     - screen
+    - skopeo
     - sshuttle
     - stow
     - vim
