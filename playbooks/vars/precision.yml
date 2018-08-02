@@ -32,7 +32,9 @@ common_packages_list:
     - origin-clients
     - podman
     - prename
+    - python2-devel
     - python2-virtualenvwrapper
+    - python3-devel
     - redhat-rpm-config
     - sshuttle
     - stow
