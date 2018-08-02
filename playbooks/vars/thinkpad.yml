@@ -149,4 +149,7 @@ vscode_extensions:
   - file-icons.file-icons
   - ms-python.python
   - ms-vscode.Go
+  - PeterJausovec.vscode-docker
+  - redhat.vscode-yaml
   - robertohuertasm.vscode-icons
+  - vscoss.vscode-ansible
