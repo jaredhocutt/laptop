@@ -26,6 +26,7 @@ common_packages_list:
     - git-lfs
     - golang
     - iperf3
+    - jq
     - mediawriter
     - origin-clients
     - podman
