@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 
-if [ $# -lt 1 ]
-then
-  echo "Usage: `basename $0` LAPTOP_ENVIRONMENT [EXTRA_VARS]"
-  exit 1
-fi
+case "$(hostname -s)" in
+  jared-precision)
+    LAPTOP_ENVIRONMENT=precision
+    ;;
+  jhocutt-thinkpad)
+    LAPTOP_ENVIRONMENT=thinkpad
+    ;;
+  *)
+    echo "This script does not support the current laptop environment."
+    exit 1
+esac
 
-ansible-galaxy install -r requirements.$1.yml
+ansible-galaxy install -r requirements.${LAPTOP_ENVIRONMENT}.yml
 
-ansible-playbook playbooks/$1.yml ${@:2}
+ansible-playbook playbooks/${LAPTOP_ENVIRONMENT}.yml ${@}
