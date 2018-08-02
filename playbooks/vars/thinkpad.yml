@@ -72,7 +72,7 @@ common_kernel_install_limit: 6
 # jaredhocutt.atom
 ################################################################################
 
-atom_version: v1.27.1
+atom_version: v1.28.2
 
 atom_packages:
   - atom-beautify
@@ -121,6 +121,8 @@ dotfiles_enabled:
     dotfile: ~/.vimrc
   - name: zsh
     dotfile: ~/.zshrc
+  - name: atom
+    dotfile: ~/.atom/styles.less
 
 ################################################################################
 # jaredhocutt.gnome-extensions
