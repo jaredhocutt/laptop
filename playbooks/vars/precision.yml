@@ -145,11 +145,20 @@ gnome_extension_ids:
 ################################################################################
 
 vscode_extensions:
+  - akamud.vscode-theme-onedark
+  - DavidAnson.vscode-markdownlint
+  - eamodio.gitlens
   - Equinusocio.vsc-material-theme
   - file-icons.file-icons
+  - HookyQR.beautify
+  - liximomo.sftp
   - ms-python.python
   - ms-vscode.Go
   - PeterJausovec.vscode-docker
   - redhat.vscode-yaml
   - robertohuertasm.vscode-icons
+  - Shan.code-settings-sync
   - vscoss.vscode-ansible
+  - yzhang.markdown-all-in-one
+  - zhuangtongfa.Material-theme
+
