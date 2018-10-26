@@ -67,9 +67,6 @@
     - role: jaredhocutt.slack
       tags: slack
 
-    - role: jaredhocutt.syncthing
-      tags: syncthing
-
     - role: jaredhocutt.teamviewer
       tags: teamviewer
 

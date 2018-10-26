@@ -19,7 +19,6 @@
 - src: jaredhocutt.restic
 - src: jaredhocutt.rpmfusion
 - src: jaredhocutt.slack
-- src: jaredhocutt.syncthing
 - src: jaredhocutt.teamviewer
 - src: jaredhocutt.transmission
 - src: jaredhocutt.vscode
