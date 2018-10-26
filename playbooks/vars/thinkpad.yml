@@ -32,6 +32,7 @@ common_packages_list:
     - mediawriter
     - openldap-clients
     - origin-clients
+    - pgadmin3
     - podman
     - policycoreutils-gui
     - prename
