@@ -26,6 +26,7 @@ common_packages_list:
     - git-lfs
     - golang
     - htop
+    - inkscape
     - iperf3
     - jq
     - mediawriter
