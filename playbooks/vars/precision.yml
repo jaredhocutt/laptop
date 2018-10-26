@@ -28,6 +28,7 @@ common_packages_list:
     - golang
     - inkscape
     - iperf3
+    - jq
     - libguestfs-tools
     - mediawriter
     - origin-clients
