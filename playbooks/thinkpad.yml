@@ -52,6 +52,9 @@
     - role: jaredhocutt.openssh_server
       tags: openssh_server
 
+    - role: jaredhocutt.private_internet_access
+      tags: private_internet_access
+
     - role: jaredhocutt.redhat_vpn
       tags: redhat_vpn
 

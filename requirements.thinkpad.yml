@@ -11,6 +11,7 @@
 - src: jaredhocutt.libvirt
 - src: jaredhocutt.oh_my_zsh
 - src: jaredhocutt.openssh_server
+- src: jaredhocutt.private_internet_access
 - src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
   scm: git
   name: jaredhocutt.redhat_vpn
