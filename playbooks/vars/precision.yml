@@ -26,6 +26,7 @@ common_packages_list:
     - git
     - git-lfs
     - golang
+    - inkscape
     - iperf3
     - libguestfs-tools
     - mediawriter
