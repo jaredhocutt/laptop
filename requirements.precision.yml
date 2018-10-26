@@ -10,6 +10,7 @@
 - src: jaredhocutt.insync
 - src: jaredhocutt.jetbrains_toolbox
 - src: jaredhocutt.libvirt
+- src: jaredhocutt.minishift
 - src: jaredhocutt.oh_my_zsh
 - src: jaredhocutt.openssh_server
 - src: jaredhocutt.private_internet_access

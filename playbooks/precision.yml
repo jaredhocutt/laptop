@@ -52,6 +52,9 @@
     - role: jaredhocutt.libvirt
       tags: libvirt
 
+    - role: jaredhocutt.minishift
+      tags: minishift
+
     - role: jaredhocutt.openssh_server
       tags: openssh_server
 
