@@ -40,6 +40,7 @@ common_packages_list:
     - redhat-rpm-config
     - screen
     - skopeo
+    - source-to-image
     - sshuttle
     - stow
     - vim

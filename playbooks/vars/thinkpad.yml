@@ -45,6 +45,7 @@ common_packages_list:
     - rubygem-asciidoctor  # Required for development on https://github.com/RedHatGov/redhatgov.github.io
     - screen
     - skopeo
+    - source-to-image
     - sshuttle
     - stow
     - vim
