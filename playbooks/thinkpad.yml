@@ -28,6 +28,9 @@
     - role: jaredhocutt.dotfiles
       tags: dotfiles
 
+    - role: jaredhocutt.franz
+      tags: franz
+
     - role: jaredhocutt.gitkraken
       tags: gitkraken
 
