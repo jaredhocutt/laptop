@@ -2,6 +2,7 @@
 - src: jaredhocutt.azure_cli
 - src: jaredhocutt.dconf_settings
 - src: jaredhocutt.dotfiles
+- src: jaredhocutt.franz
 - src: jaredhocutt.gitkraken
 - src: jaredhocutt.gnome_extensions
 - src: jaredhocutt.google_chrome
