@@ -63,6 +63,7 @@ common_packages_list:
     - kdenlive
     - obs-studio
     - okular
+    - remmina
     - solaar
     - tilix
     - vlc
@@ -167,4 +168,3 @@ vscode_extensions:
   - vscoss.vscode-ansible
   - yzhang.markdown-all-in-one
   - zhuangtongfa.Material-theme
-
