@@ -12,6 +12,6 @@ case "$(hostname -s)" in
     exit 1
 esac
 
-ansible-galaxy install -r requirements.${LAPTOP_ENVIRONMENT}.yml
+ansible-galaxy install -r requirements.${LAPTOP_ENVIRONMENT}.yml --ignore-errors
 
 ansible-playbook playbooks/${LAPTOP_ENVIRONMENT}.yml ${@}
