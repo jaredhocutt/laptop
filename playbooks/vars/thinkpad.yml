@@ -20,6 +20,7 @@ common_packages_list:
     - awscli
     - buildah
     - certbot
+    - chrome-gnome-shell
     - dnf-automatic
     - dnf-plugin-system-upgrade
     - git
