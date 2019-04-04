@@ -23,6 +23,7 @@ common_packages_list:
     - chrome-gnome-shell
     - dnf-automatic
     - dnf-plugin-system-upgrade
+    - gcc-c++
     - git
     - git-lfs
     - golang
