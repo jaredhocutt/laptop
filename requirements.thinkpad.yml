@@ -18,6 +18,7 @@
 - src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
   scm: git
   name: jaredhocutt.redhat_vpn
+- src: jaredhocutt.rambox
 - src: jaredhocutt.restic
 - src: jaredhocutt.rocketchat
 - src: jaredhocutt.rpmfusion
