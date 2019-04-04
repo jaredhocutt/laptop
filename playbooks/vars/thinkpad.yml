@@ -40,6 +40,7 @@ common_packages_list:
     - prename
     - python2-devel
     - python2-ipython
+    - python2-virtualenv
     - python2-virtualenvwrapper
     - python3-devel
     - rclone
