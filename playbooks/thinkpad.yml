@@ -58,6 +58,9 @@
     - role: jaredhocutt.openssh_server
       tags: openssh_server
 
+    - role: jaredhocutt.operator_sdk
+      tags: operator_sdk
+
     - role: jaredhocutt.private_internet_access
       tags: private_internet_access
 
