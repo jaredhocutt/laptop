@@ -67,9 +67,6 @@
     - role: jaredhocutt.redhat_vpn
       tags: redhat_vpn
 
-    - role: jaredhocutt.rambox
-      tags: rambox
-
     - role: jaredhocutt.restic
       tags: restic
 
