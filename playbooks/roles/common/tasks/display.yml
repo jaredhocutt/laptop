@@ -1,10 +1,15 @@
 ---
 
-- name: Create xorg conf for additional monitor resolutions
-  copy:
-    src: 50-monitor.conf
-    dest: /etc/X11/xorg.conf.d/50-monitor.conf
-    owner: root
-    group: root
-    mode: 0644
+- name: Install console fonts
+  dnf:
+    name: terminus-fonts-console
+    state: present
+  become: yes
+
+- name: Set console font
+  lineinfile:
+    path: /etc/vconsole.conf
+    regexp: "^FONT="
+    line: FONT="ter-v32b"
+    state: present
   become: yes

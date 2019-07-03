@@ -1,11 +1,10 @@
 ---
+# tasks file for common
 
 - import_tasks: packages.yml
 
-- import_tasks: display.yml
-
 - import_tasks: grub.yml
 
-- import_tasks: console.yml
+- import_tasks: display.yml
 
 - import_tasks: networking.yml

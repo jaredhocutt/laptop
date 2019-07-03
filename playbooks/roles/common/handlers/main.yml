@@ -1,4 +1,5 @@
 ---
+# handlers file for common
 
 - name: generate_grub_config
   command: grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg

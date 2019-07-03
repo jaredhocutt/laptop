@@ -1,8 +1,4 @@
 ---
+# defaults file for common
 
-common_packages: []
-common_repos_rpms: []
-
-common_python_user_packages: []
-
-common_kernel_install_limit: 3
+laptop_packages: []

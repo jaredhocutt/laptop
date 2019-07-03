@@ -1,0 +1,75 @@
+---
+
+################################################################################
+# common
+################################################################################
+
+laptop_packages_list:
+  groups:
+    - '@C Development Tools and Libraries'
+    - '@Development Tools'
+  fonts:
+    - adobe-source-code-pro-fonts
+    - adobe-source-sans-pro-fonts
+    - adobe-source-serif-pro-fonts
+    - google-noto-mono-fonts
+    - google-roboto-fonts
+    - overpass-fonts
+  general:
+    - ansible
+    - awscli
+    - buildah
+    - certbot
+    - chrome-gnome-shell
+    - dnf-automatic
+    - dnf-plugin-system-upgrade
+    - gcc-c++
+    - git
+    - git-lfs
+    - golang
+    - htop
+    - iperf3
+    - jq
+    - mediawriter
+    - openldap-clients
+    - origin-clients
+    - pgadmin3
+    - pipenv
+    - podman
+    - policycoreutils-gui
+    - prename
+    - python2-devel
+    - python2-virtualenv
+    - python2-virtualenvwrapper
+    - python3-devel
+    - python3-virtualenv
+    - python3-virtualenvwrapper
+    - rclone
+    - redhat-rpm-config
+    - screen
+    - skopeo
+    - sshuttle
+    - stow
+    - vim
+    - wget
+  gui:
+    - audacity
+    - blivet-gui
+    - chromium
+    - dconf-editor
+    - gimp
+    - git-cola
+    - gnome-tweak-tool
+    - hexchat
+    - inkscape
+    - kdenlive
+    - obs-studio
+    - okular
+    - remmina
+    - solaar
+    - tilix
+    - vlc
+
+laptop_packages: "{{ laptop_packages_list.groups }} + {{ laptop_packages_list.fonts }} + {{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }}"
+
+kernel_install_limit: 6

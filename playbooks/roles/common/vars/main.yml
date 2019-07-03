@@ -1,2 +1,4 @@
 ---
 # vars file for common
+
+kernel_install_limit: 3

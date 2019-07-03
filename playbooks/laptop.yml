@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  roles:
+    - role: jaredhocutt.rpmfusion
+      tags: [rpmfusion, always]
+
+    - role: common
+      tags: [common, always]

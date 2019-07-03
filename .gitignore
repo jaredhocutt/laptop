@@ -2,12 +2,11 @@
 # Project
 ###############################################################################
 
-playbooks/vars/*
-!playbooks/vars/precision.yml
-!playbooks/vars/thinkpad.yml
+.ansible/
 
-playbooks/roles/*
-!playbooks/roles/common
+vars/*
+!vars/example.yml
+!vars/thinkpad.yml
 
 ###############################################################################
 # Python
