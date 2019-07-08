@@ -1,8 +1,8 @@
 ---
 
-################################################################################
+###############################################################################
 # common
-################################################################################
+###############################################################################
 
 laptop_packages_list:
   groups:
@@ -12,17 +12,17 @@ laptop_packages_list:
     - adobe-source-code-pro-fonts
     - adobe-source-sans-pro-fonts
     - adobe-source-serif-pro-fonts
-    - google-noto-mono-fonts
+    - google-noto-sans-mono-fonts
     - google-roboto-fonts
     - overpass-fonts
   general:
     - ansible
     - awscli
     - buildah
-    - certbot
     - chrome-gnome-shell
     - dnf-automatic
     - dnf-plugin-system-upgrade
+    - gcc
     - gcc-c++
     - git
     - git-lfs
@@ -30,17 +30,16 @@ laptop_packages_list:
     - htop
     - iperf3
     - jq
-    - mediawriter
+    - libcurl-devel
+    - libxml2-devel
+    - NetworkManager-l2tp-gnome
     - openldap-clients
     - origin-clients
-    - pgadmin3
+    - openssl-devel
     - pipenv
     - podman
     - policycoreutils-gui
     - prename
-    - python2-devel
-    - python2-virtualenv
-    - python2-virtualenvwrapper
     - python3-devel
     - python3-virtualenv
     - python3-virtualenvwrapper
@@ -51,6 +50,7 @@ laptop_packages_list:
     - sshuttle
     - stow
     - vim
+    - virt-viewer
     - wget
   gui:
     - audacity
@@ -58,11 +58,11 @@ laptop_packages_list:
     - chromium
     - dconf-editor
     - gimp
-    - git-cola
     - gnome-tweak-tool
     - hexchat
     - inkscape
     - kdenlive
+    - mediawriter
     - obs-studio
     - okular
     - remmina
@@ -73,3 +73,59 @@ laptop_packages_list:
 laptop_packages: "{{ laptop_packages_list.groups }} + {{ laptop_packages_list.fonts }} + {{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }}"
 
 kernel_install_limit: 6
+
+################################################################################
+# jaredhocutt.dconf_settings
+################################################################################
+
+dconf_settings:
+  - key: /org/gnome/desktop/wm/preferences/button-layout
+    value: "'appmenu:minimize,maximize,close'"
+  - key: /org/gnome/mutter/workspaces-only-on-primary
+    value: "false"
+  - key: /org/gnome/desktop/interface/clock-show-date
+    value: "true"
+  - key: /org/gnome/desktop/interface/clock-format
+    value: "'12h'"
+  - key: /org/gnome/desktop/datetime/automatic-timezone
+    value: "true"
+  - key: /org/gnome/desktop/interface/show-battery-percentage
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-enabled
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-temperature
+    value: "uint32 5250"
+
+################################################################################
+# jaredhocutt.dotfiles
+################################################################################
+
+dotfiles_enabled:
+  - name: git
+    dotfile: ~/.gitconfig
+  - name: vim
+    dotfile: ~/.vimrc
+  - name: zsh
+    dotfile: ~/.zshrc
+
+################################################################################
+# jaredhocutt.gnome_extensions
+################################################################################
+
+gnome_extension_ids:
+  - 15   # AlternateTab by fmuellner
+  - 964  # Do Not Disturb Button by nls1729
+  - 770  # Force Quit by megh
+  - 921  # Multi Monitors Add-On by spin83
+  - 234  # Steal My Focus by sstent
+  - 826  # Suspend Button by laser_b
+  - 906  # Sound Input & Output Device Chooser by kgshank
+  - 118  # No Topleft Hot Corner by azuri
+  - 905  # Refresh Wifi Connections by kgshank
+
+###############################################################################
+# andrewrothstein.terraform
+###############################################################################
+
+terraform_ver: "0.12.3"
+terraform_platform: linux_amd64

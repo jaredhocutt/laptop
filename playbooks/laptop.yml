@@ -7,3 +7,42 @@
 
     - role: common
       tags: [common, always]
+
+    - role: jaredhocutt.oh_my_zsh
+      tags: [oh_my_zsh]
+
+    - role: jaredhocutt.brave_browser
+      tags: [brave_browser]
+
+    - role: jaredhocutt.cockpit
+      tags: [cockpit]
+
+    - role: jaredhocutt.dconf_settings
+      tags: [dconf_settings]
+
+    - role: jaredhocutt.dotfiles
+      tags: [dotfiles]
+
+    - role: jaredhocutt.franz
+      tags: [franz]
+
+    - role: jaredhocutt.gnome_extensions
+      tags: [gnome_extensions]
+
+    - role: jaredhocutt.google_chrome
+      tags: [google_chrome]
+
+    - role: jaredhocutt.insync
+      tags: [insync]
+
+    - role: jaredhocutt.redhat_vpn
+      tags: [redhat_vpn]
+
+    - role: jaredhocutt.restic
+      tags: [restic]
+
+    - role: jaredhocutt.vscode
+      tags: [vscode]
+
+    - role: andrewrothstein.terraform
+      tags: [terraform]

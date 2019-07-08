@@ -8,3 +8,5 @@
 - import_tasks: display.yml
 
 - import_tasks: networking.yml
+
+- import_tasks: ssh.yml

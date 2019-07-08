@@ -1,0 +1,14 @@
+---
+
+- name: Install OpenSSH server
+  yum:
+    name: openssh-server
+    state: present
+  become: yes
+
+- name: Start and enable sshd
+  service:
+    name: sshd
+    state: started
+    enabled: yes
+  become: yes

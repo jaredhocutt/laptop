@@ -1,4 +1,45 @@
 ---
 
+- src: jaredhocutt.brave_browser
+  version: v0.1.0
+
+- src: jaredhocutt.cockpit
+  version: v0.1.1
+
+- src: jaredhocutt.dconf_settings
+  version: v0.1.1
+
+- src: jaredhocutt.dotfiles
+  version: v0.1.0
+
+- src: jaredhocutt.franz
+  version: v0.1.0
+
+- src: jaredhocutt.gnome_extensions
+  version: v0.1.0
+
+- src: jaredhocutt.google_chrome
+  version: v0.1.0
+
+- src: jaredhocutt.insync
+  version: v0.1.1
+
+- src: jaredhocutt.oh_my_zsh
+  version: v0.1.0
+
+- name: jaredhocutt.redhat_vpn
+  src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
+  scm: git
+  version: v0.1.0
+
+- src: jaredhocutt.restic
+  version: v0.1.0
+
 - src: jaredhocutt.rpmfusion
   version: v0.1.0
+
+- src: jaredhocutt.vscode
+  version: v0.1.0
+
+- src: andrewrothstein.terraform
+  version: v2.2.22
