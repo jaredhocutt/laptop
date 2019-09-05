@@ -2,3 +2,4 @@
 # defaults file for common
 
 laptop_packages: []
+laptop_services: []

@@ -1,0 +1,9 @@
+---
+
+- name: Start and enable services
+  service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  become: yes
+  loop: "{{ laptop_services }}"
