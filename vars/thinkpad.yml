@@ -61,6 +61,7 @@ laptop_packages_list:
     - dconf-editor
     - gimp
     - gnome-tweak-tool
+    - handbrake-gui
     - hexchat
     - inkscape
     - kdenlive
