@@ -33,6 +33,7 @@ laptop_packages_list:
     - libcurl-devel
     - libxml2-devel
     - NetworkManager-l2tp-gnome
+    - nmap
     - openldap-clients
     - origin-clients
     - openssl-devel
