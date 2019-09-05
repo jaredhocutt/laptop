@@ -71,6 +71,7 @@ laptop_packages_list:
     - remmina
     - solaar
     - tilix
+    - unetbootin
     - vlc
 
 laptop_packages: "{{ laptop_packages_list.groups }} + {{ laptop_packages_list.fonts }} + {{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }}"
