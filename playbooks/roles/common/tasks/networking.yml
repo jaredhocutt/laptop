@@ -8,3 +8,14 @@
     group: root
     mode: 0755
   become: yes
+  notify: restart_networkmanager
+
+- name: Enable the DNSmasq plugin in NetworkManager
+  copy:
+    src: main.conf
+    dest: /etc/NetworkManager/conf.d/main.conf
+    owner: root
+    group: root
+    mode: 0644
+  become: yes
+  notify: restart_networkmanager
