@@ -8,6 +8,9 @@ vars/*
 !vars/example.yml
 !vars/thinkpad.yml
 
+.vscode/
+.idea/
+
 ###############################################################################
 # Python
 # https://github.com/github/gitignore/blob/master/Python.gitignore
