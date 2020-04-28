@@ -1,0 +1,7 @@
+---
+# defaults file for macos
+
+homebrew_packages: []
+homebrew_cask_packages: []
+
+appstore_packages: []

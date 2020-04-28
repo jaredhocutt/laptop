@@ -1,0 +1,56 @@
+---
+
+###############################################################################
+# common
+###############################################################################
+
+homebrew_packages:
+  - aws-shell
+  - awscli
+  - jq
+  - pipenv
+  - python
+  - rclone
+  - sshuttle
+  - stow
+  - tmux
+  - vim
+  - wget
+
+homebrew_cask_packages:
+  - alfred
+  - appcleaner
+  - font-noto-sans-mono
+  - font-overpass
+  - font-source-code-pro
+  - font-source-sans-pro
+  - font-source-serif-pro
+  - gitkraken
+  - hp-easy-start
+  - insync
+  - istat-menus5
+  - iterm2
+  - little-snitch
+  - micro-snitch
+  - obs
+  - scroll-reverser
+  - skitch
+  - visual-studio-code
+  - vmware-fusion
+
+appstore_packages:
+  - 937984704 # Amphetamine
+  - 715768417 # Microsoft Remote Desktop
+  - 419330170 # Moom
+
+################################################################################
+# jaredhocutt.dotfiles
+################################################################################
+
+dotfiles_enabled:
+  - name: git
+    dotfile: ~/.gitconfig
+  - name: vim
+    dotfile: ~/.vimrc
+  - name: zsh
+    dotfile: ~/.zshrc

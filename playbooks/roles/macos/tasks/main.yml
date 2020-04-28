@@ -1,0 +1,23 @@
+---
+# tasks file for macos
+
+- name: Install Homebrew packages
+  homebrew:
+    name: "{{ homebrew_packages }}"
+    state: present
+
+- name: Install Homebrew cask packages
+  homebrew_cask:
+    name: "{{ homebrew_cask_packages }}"
+    state: present
+
+- name: Install App Store CLI
+  homebrew:
+    name: mas
+    state: present
+
+- name: Install App Store packages
+  command: mas install {{ item }}
+  register: r_install_appstore_packages
+  changed_when: '"is already installed" is not in r_install_appstore_packages.stdout'
+  loop: "{{ appstore_packages }}"
