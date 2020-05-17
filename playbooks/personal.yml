@@ -1,0 +1,40 @@
+---
+
+- hosts: localhost
+  vars_files:
+    - "../vars/personal.yml"
+  roles:
+    - role: common
+      tags: [common, always]
+
+    - role: jaredhocutt.oh_my_zsh
+      tags: [oh_my_zsh]
+
+- hosts: localhost
+  vars_files:
+    - "../vars/personal.yml"
+  roles:
+    - role: jaredhocutt.dconf_settings
+      tags: [dconf_settings]
+
+    - role: jaredhocutt.dotfiles
+      tags: [dotfiles]
+
+    - role: jaredhocutt.insync
+      tags: [insync]
+
+    - role: jaredhocutt.gnome_extensions
+      tags: [gnome_extensions]
+
+    - role: jaredhocutt.google_chrome
+      tags: [google_chrome]
+
+    - role: jaredhocutt.obs_studio
+      tags: [obs_studio]
+
+    - role: jaredhocutt.vlc
+      tags: [vlc]
+
+    - role: jaredhocutt.vscode
+      tags: [vscode]
+

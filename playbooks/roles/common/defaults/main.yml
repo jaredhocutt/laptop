@@ -1,0 +1,7 @@
+---
+# defaults file for common
+
+laptop_packages: []
+
+kernel_install_limit: 3
+

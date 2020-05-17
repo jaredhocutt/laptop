@@ -1,0 +1,29 @@
+---
+
+- src: jaredhocutt.dconf_settings
+  version: v0.1.2
+
+- src: jaredhocutt.dotfiles
+  version: v0.1.1
+
+- src: jaredhocutt.gnome_extensions
+  version: v0.1.2
+
+- src: jaredhocutt.google_chrome
+  version: v0.1.0
+
+- src: jaredhocutt.insync
+  version: v0.1.2
+
+- src: jaredhocutt.obs_studio
+  version: v0.1.0
+
+- src: jaredhocutt.oh_my_zsh
+  version: v0.1.0
+
+- src: jaredhocutt.vlc
+  version: v0.1.0
+
+- src: jaredhocutt.vscode
+  version: v0.1.0
+

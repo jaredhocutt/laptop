@@ -1,0 +1,16 @@
+---
+
+- name: Install laptop packages
+  dnf:
+    name: "{{ laptop_packages }}"
+    state: present
+  become: yes
+
+- name: Configure kernel install limit
+  lineinfile:
+    path: /etc/dnf/dnf.conf
+    regexp: "^installonly_limit="
+    line: installonly_limit={{ kernel_install_limit }}
+    state: present
+  become: yes
+

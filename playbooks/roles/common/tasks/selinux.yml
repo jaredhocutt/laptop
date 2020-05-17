@@ -1,0 +1,7 @@
+---
+
+- name: Install libselinux-python
+  dnf:
+    name: python3-libselinux
+    state: present
+  become: yes

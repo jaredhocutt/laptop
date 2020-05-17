@@ -1,0 +1,47 @@
+---
+
+- name: Set grub terminal output to gfxterm
+  lineinfile:
+    path: /etc/sysconfig/grub
+    regexp: "^GRUB_TERMINAL_OUTPUT="
+    line: GRUB_TERMINAL_OUTPUT="gfxterm"
+    state: present
+  notify: generate_grub_config
+  become: yes
+
+- name: Set grub gfxpayload
+  lineinfile:
+    path: /etc/sysconfig/grub
+    regexp: "^GRUB_GFXPAYLOAD_LINUX="
+    line: GRUB_GFXPAYLOAD_LINUX="keep"
+    state: present
+  notify: generate_grub_config
+  become: yes
+
+- name: Set grub resolution
+  lineinfile:
+    path: /etc/sysconfig/grub
+    regexp: "^GRUB_GFXMODE="
+    line: GRUB_GFXMODE="1280x720x32,1024x768x32,auto"
+    state: present
+  notify: generate_grub_config
+  become: yes
+
+- name: Set grub default to saved
+  lineinfile:
+    path: /etc/sysconfig/grub
+    regexp: "^GRUB_DEFAULT="
+    line: GRUB_DEFAULT=saved
+    state: present
+  notify: generate_grub_config
+  become: yes
+
+- name: Set grub to save the last choice
+  lineinfile:
+    path: /etc/sysconfig/grub
+    regexp: "^GRUB_SAVEDEFAULT="
+    line: GRUB_SAVEDEFAULT=true
+    state: present
+  notify: generate_grub_config
+  become: yes
+
