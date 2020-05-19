@@ -23,6 +23,9 @@
     - role: jaredhocutt.insync
       tags: [insync]
 
+    - role: jaredhocutt.franz
+      tags: [franz]
+
     - role: jaredhocutt.gnome_extensions
       tags: [gnome_extensions]
 
