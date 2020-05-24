@@ -4,6 +4,7 @@
 
 vars/*
 !vars/.gitkeep
+!vars/personal.yml
 
 .ansible/
 

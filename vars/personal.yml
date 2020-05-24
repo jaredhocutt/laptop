@@ -1,0 +1,94 @@
+---
+
+###############################################################################
+# common
+###############################################################################
+
+laptop_packages_list:
+  general:
+    - ansible
+    - cockpit
+    - cockpit-machines
+    - cockpit-podman
+    - git
+    - git-lfs
+    - htop
+    - iperf3
+    - jq
+    - NetworkManager-l2tp-gnome
+    - nmap
+    - pipenv
+    - podman
+    - sshuttle
+    - tmux
+    - vim
+    - wget
+    - zsh
+  gui:
+    - audacity
+    - chromium
+    - dconf-editor
+    - gimp
+    - gnome-tweak-tool
+    - mediawriter
+    - remmina
+    - tilix
+    - virt-viewer
+  fonts:
+    - adobe-source-code-pro-fonts
+    - adobe-source-sans-pro-fonts
+    - adobe-source-serif-pro-fonts
+    - google-noto-sans-mono-fonts
+    - google-roboto-fonts
+    - overpass-fonts
+
+
+laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }} + {{ laptop_packages_list.fonts }}"
+
+laptop_services:
+  - cockpit
+
+kernel_install_limit: 6
+
+###############################################################################
+# jaredhocutt.dconf_settings
+###############################################################################
+
+dconf_settings:
+  - key: /org/gnome/mutter/workspaces-only-on-primary
+    value: "false"
+  - key: /org/gnome/desktop/interface/clock-show-date
+    value: "true"
+  - key: /org/gnome/desktop/interface/clock-format
+    value: "'12h'"
+  - key: /org/gnome/desktop/datetime/automatic-timezone
+    value: "true"
+  - key: /org/gnome/desktop/interface/show-battery-percentage
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-enabled
+    value: "true"
+  - key: /org/gnome/settings-daemon/plugins/color/night-light-temperature
+    value: "uint32 5250"
+
+###############################################################################
+# jaredhocutt.dotfiles
+###############################################################################
+
+dotfiles_enabled:
+  - name: git
+    dotfile: ~/.gitconfig
+  - name: vim
+    dotfile: ~/.vimrc
+  - name: zsh
+    dotfile: ~/.zshrc
+
+###############################################################################
+# jaredhocutt.gnome_extensions
+###############################################################################
+
+gnome_extension_ids:
+  - 15   # AlternateTab by fmuellner
+  - 921  # Multi Monitors Add-On by spin83
+  - 234  # Steal My Focus by sstent
+  - 906  # Sound Input & Output Device Chooser by kgshank
+  - 118  # No Topleft Hot Corner by azuri
