@@ -29,6 +29,9 @@
     - role: jaredhocutt.franz
       tags: [franz]
 
+    - role: jaredhocutt.gitkraken
+      tags: [gitkraken]
+
     - role: jaredhocutt.gnome_extensions
       tags: [gnome_extensions]
 
