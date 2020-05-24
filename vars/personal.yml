@@ -31,6 +31,7 @@ laptop_packages_list:
     - dconf-editor
     - gimp
     - gnome-tweak-tool
+    - kdenlive
     - mediawriter
     - paper-icon-theme
     - remmina
