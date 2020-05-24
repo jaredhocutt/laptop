@@ -25,12 +25,14 @@ laptop_packages_list:
     - wget
     - zsh
   gui:
+    - arc-theme
     - audacity
     - chromium
     - dconf-editor
     - gimp
     - gnome-tweak-tool
     - mediawriter
+    - paper-icon-theme
     - remmina
     - tilix
     - virt-viewer
