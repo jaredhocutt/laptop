@@ -23,6 +23,9 @@
     - role: jaredhocutt.insync
       tags: [insync]
 
+    - role: jaredhocutt.ferdi
+      tags: [ferdi]
+
     - role: jaredhocutt.franz
       tags: [franz]
 
