@@ -51,7 +51,7 @@ laptop_packages_list:
 laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }} + {{ laptop_packages_list.fonts }}"
 
 laptop_services:
-  - cockpit
+  - cockpit.socket
 
 kernel_install_limit: 6
 
