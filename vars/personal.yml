@@ -19,6 +19,7 @@ laptop_packages_list:
     - nmap
     - pipenv
     - podman
+    - rclone
     - sshuttle
     - tmux
     - vim
