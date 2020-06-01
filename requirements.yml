@@ -30,6 +30,11 @@
 - src: jaredhocutt.oh_my_zsh
   version: v0.1.0
 
+- src: jaredhocutt.redhat_vpn
+  src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
+  scm: git
+  version: v1.0
+
 - src: jaredhocutt.vlc
   version: v0.1.0
 
