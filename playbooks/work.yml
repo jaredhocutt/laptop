@@ -2,7 +2,7 @@
 
 - hosts: localhost
   vars_files:
-    - "../vars/personal.yml"
+    - "../vars/work.yml"
   roles:
     - role: common
       tags: [common, always]
