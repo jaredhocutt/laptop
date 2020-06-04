@@ -12,7 +12,7 @@
 
 - hosts: localhost
   vars_files:
-    - "../vars/personal.yml"
+    - "../vars/work.yml"
   roles:
     - role: jaredhocutt.dconf_settings
       tags: [dconf_settings]
@@ -46,4 +46,3 @@
 
     - role: jaredhocutt.vscode
       tags: [vscode]
-
