@@ -20,6 +20,7 @@ laptop_packages_list:
     - pipenv
     - podman
     - rclone
+    - skopeo
     - sshuttle
     - tmux
     - vim
