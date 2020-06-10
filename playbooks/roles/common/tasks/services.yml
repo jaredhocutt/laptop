@@ -1,9 +1,19 @@
 ---
 
-- name: Start and enable laptop services
+- name: Start and enable laptop system services
   service:
     name: "{{ item }}"
+    scope: system
     state: started
     enabled: yes
   become: yes
   loop: "{{ laptop_services }}"
+
+- name: Start and enable laptop user services
+  service:
+    name: "{{ item }}"
+    scope: user
+    state: started
+    enabled: yes
+  loop: "{{ laptop_user_services }}"
+
