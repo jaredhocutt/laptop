@@ -35,6 +35,8 @@ laptop_packages_list:
     - gnome-tweak-tool
     - hplip-gui
     - kdenlive
+    - libreoffice-draw
+    - libreoffice-pdfimport
     - mediawriter
     - paper-icon-theme
     - remmina
