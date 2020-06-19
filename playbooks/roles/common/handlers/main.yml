@@ -5,3 +5,9 @@
   command: grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
   become: yes
 
+- name: restart_networkmanager
+  service:
+    name: NetworkManager
+    state: restarted
+  become: yes
+
