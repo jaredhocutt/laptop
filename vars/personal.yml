@@ -55,6 +55,9 @@ laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.g
 
 laptop_services:
   - cockpit.socket
+laptop_user_services:
+  - pipewire.socket
+
 
 kernel_install_limit: 6
 
