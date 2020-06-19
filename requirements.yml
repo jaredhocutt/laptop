@@ -1,5 +1,8 @@
 ---
 
+- src: jaredhocutt.azure_cli
+  version: master
+
 - src: jaredhocutt.dconf_settings
   version: v0.1.2
 
@@ -30,6 +33,9 @@
 - name: jaredhocutt.redhat_vpn
   src: git@github.com:jaredhocutt/ansible-redhat-vpn.git
   scm: git
+  version: v1.0
+
+- src: jaredhocutt.restic
   version: v1.0
 
 - src: jaredhocutt.vlc

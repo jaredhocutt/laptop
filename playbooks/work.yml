@@ -14,6 +14,9 @@
   vars_files:
     - "../vars/work.yml"
   roles:
+    - role: jaredhocutt.azure_cli
+      tags: [azure_cli]
+
     - role: jaredhocutt.dconf_settings
       tags: [dconf_settings]
 
@@ -40,6 +43,9 @@
 
     - role: jaredhocutt.redhat_vpn
       tags: [redhat_vpn]
+
+    - role: jaredhocutt.restic
+      tags: [restic]
 
     - role: jaredhocutt.vlc
       tags: [vlc]
