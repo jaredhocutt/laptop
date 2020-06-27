@@ -10,6 +10,7 @@ laptop_packages_list:
     - cockpit
     - cockpit-machines
     - cockpit-podman
+    - dnf-plugins-core
     - git
     - git-lfs
     - htop
