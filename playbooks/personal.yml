@@ -5,7 +5,7 @@
     - "../vars/personal.yml"
   roles:
     - role: common
-      tags: [common, always]
+      tags: [common]
 
     - role: jaredhocutt.oh_my_zsh
       tags: [oh_my_zsh]
