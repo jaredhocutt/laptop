@@ -38,6 +38,9 @@
     - role: jaredhocutt.google_chrome
       tags: [google_chrome]
 
+    - role: jaredhocutt.handbrake
+      tags: [handbrake]
+
     - role: jaredhocutt.obs_studio
       tags: [obs_studio]
 

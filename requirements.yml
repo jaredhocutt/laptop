@@ -21,6 +21,9 @@
 - src: jaredhocutt.google_chrome
   version: v0.1.0
 
+- src: jaredhocutt.handbrake
+  version: v1.0
+
 - src: jaredhocutt.insync
   version: v0.1.2
 
