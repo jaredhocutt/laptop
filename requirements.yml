@@ -27,6 +27,9 @@
 - src: jaredhocutt.insync
   version: v0.1.2
 
+- src: jaredhocutt.kdenlive
+  version: v1.0
+
 - src: jaredhocutt.obs_studio
   version: v0.1.0
 

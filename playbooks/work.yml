@@ -41,6 +41,9 @@
     - role: jaredhocutt.handbrake
       tags: [handbrake]
 
+    - role: jaredhocutt.kdenlive
+      tags: [kdenlive]
+
     - role: jaredhocutt.obs_studio
       tags: [obs_studio]
 
