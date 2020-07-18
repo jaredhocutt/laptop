@@ -81,6 +81,8 @@ dconf_settings:
     value: "true"
   - key: /org/gnome/settings-daemon/plugins/color/night-light-temperature
     value: "uint32 5250"
+  - key: /org/gtk/settings/file-chooser/sort-directories-first
+    value: "true"
 
 ###############################################################################
 # jaredhocutt.dotfiles
@@ -93,6 +95,8 @@ dotfiles_enabled:
     dotfile: ~/.vimrc
   - name: zsh
     dotfile: ~/.zshrc
+  - name: tmux
+    dotfile: ~/.tmux.conf
 
 ###############################################################################
 # jaredhocutt.gnome_extensions
@@ -104,3 +108,6 @@ gnome_extension_ids:
   - 234  # Steal My Focus by sstent
   - 906  # Sound Input & Output Device Chooser by kgshank
   - 118  # No Topleft Hot Corner by azuri
+  - 307  # Dash to Dock by michelle_g
+  - 1160 # Dash to Panel by jderose9
+  - 1228 # Arc Menu by LinxGem33
