@@ -37,6 +37,7 @@ laptop_packages_list:
     - gnome-tweak-tool
     - hplip-gui
     - mediawriter
+    - mkvtoolnix-gui
     - paper-icon-theme
     - remmina
     - tilix
