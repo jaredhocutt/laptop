@@ -94,6 +94,8 @@ dotfiles_enabled:
     dotfile: ~/.vimrc
   - name: zsh
     dotfile: ~/.zshrc
+  - name: tmux
+    dotfile: ~/.tmux.conf
 
 ###############################################################################
 # jaredhocutt.gnome_extensions
