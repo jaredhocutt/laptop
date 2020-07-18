@@ -80,6 +80,8 @@ dconf_settings:
     value: "true"
   - key: /org/gnome/settings-daemon/plugins/color/night-light-temperature
     value: "uint32 5250"
+  - key: /org/gtk/settings/file-chooser/sort-directories-first
+    value: "true"
 
 ###############################################################################
 # jaredhocutt.dotfiles
