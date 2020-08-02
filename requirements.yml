@@ -3,6 +3,9 @@
 - src: jaredhocutt.azure_cli
   version: master
 
+- src: jaredhocutt.brave_browser
+  version: v1.0.0
+
 - src: jaredhocutt.dconf_settings
   version: v0.1.2
 

@@ -17,6 +17,9 @@
     - role: jaredhocutt.azure_cli
       tags: [azure_cli]
 
+    - role: jaredhocutt.brave_browser
+      tags: [brave_browser]
+
     - role: jaredhocutt.dconf_settings
       tags: [dconf_settings]
 
