@@ -25,8 +25,10 @@ laptop_packages_list:
     - podman
     - python3-certbot
     - python3-certbot-dns-route53
+    - qpdf
     - rclone
     - skopeo
+    - smartmontools
     - sshuttle
     - tmux
     - vim
