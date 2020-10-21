@@ -32,16 +32,12 @@ laptop_packages_list:
     - zsh
   gui:
     - arc-theme
-    - audacity
     - chromium
-    - dconf-editor
     - gimp
     - gnome-tweak-tool
     - hplip-gui
     - mediawriter
-    - mkvtoolnix-gui
     - paper-icon-theme
-    - remmina
     - tilix
     - virt-viewer
     - weechat
