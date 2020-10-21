@@ -36,6 +36,7 @@ laptop_packages_list:
     - gimp
     - gnome-tweak-tool
     - hplip-gui
+    - libreoffice-draw
     - mediawriter
     - paper-icon-theme
     - tilix
