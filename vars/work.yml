@@ -83,6 +83,7 @@ laptop_flatpaks:
   - com.yubico.yubioath
   - org.inkscape.Inkscape
   - org.pulseaudio.pavucontrol
+  - com.valvesoftware.Steam
 
 laptop_services:
   - cockpit.socket
