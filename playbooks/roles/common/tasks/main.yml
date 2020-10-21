@@ -5,6 +5,8 @@
 
 - import_tasks: packages.yml
 
+- import_tasks: flatpaks.yml
+
 - import_tasks: services.yml
 
 - import_tasks: grub.yml

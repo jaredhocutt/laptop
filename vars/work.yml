@@ -51,8 +51,35 @@ laptop_packages_list:
     - google-roboto-fonts
     - overpass-fonts
 
-
 laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }} + {{ laptop_packages_list.fonts }}"
+
+laptop_flatpaks:
+  - org.audacityteam.Audacity
+  - com.bitwarden.desktop
+  - org.blender.Blender
+  - com.bluejeans.BlueJeans
+  - com.calibre_ebook.calibre
+  - ca.desrt.dconf-editor
+  - com.getferdi.Ferdi
+  - org.gnome.Firmware
+  - com.axosoft.GitKraken
+  - fr.handbrake.ghb
+  - com.github.gijsgoudzwaard.image-optimizer
+  - org.kde.kdenlive
+  - com.makemkv.MakeMKV
+  - org.bunkus.mkvtoolnix-gui
+  - com.obsproject.Studio
+  - com.getpostman.Postman
+  - com.prusa3d.PrusaSlicer
+  - com.github.wwmm.pulseeffects
+  - org.remmina.Remmina
+  - org.signal.Signal
+  - com.spotify.Client
+  - org.videolan.VLC
+  - us.zoom.Zoom
+  - com.yubico.yubioath
+  - org.inkscape.Inkscape
+  - org.pulseaudio.pavucontrol
 
 laptop_services:
   - cockpit.socket

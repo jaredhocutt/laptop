@@ -2,6 +2,7 @@
 # defaults file for common
 
 laptop_packages: []
+laptop_flatpaks: []
 laptop_services: []
 
 kernel_install_limit: 3
