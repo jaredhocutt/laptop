@@ -12,6 +12,7 @@ laptop_packages_list:
     - cockpit-machines
     - cockpit-podman
     - gcc
+    - ffmpeg
     - git
     - git-lfs
     - htop
