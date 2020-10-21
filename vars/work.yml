@@ -23,6 +23,8 @@ laptop_packages_list:
     - nmap
     - pipenv
     - podman
+    - python3-certbot
+    - python3-certbot-dns-route53
     - rclone
     - skopeo
     - sshuttle
