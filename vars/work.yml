@@ -7,6 +7,7 @@
 laptop_packages_list:
   general:
     - ansible
+    - awscli
     - cockpit
     - cockpit-machines
     - cockpit-podman
