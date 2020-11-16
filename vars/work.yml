@@ -36,13 +36,16 @@ laptop_packages_list:
     - zsh
   gui:
     - arc-theme
+    - audacity
     - chromium
+    - dconf-editor
     - gimp
     - gnome-tweak-tool
     - hplip-gui
     - libreoffice-draw
     - mediawriter
     - paper-icon-theme
+    - remmina
     - tilix
     - virt-viewer
     - weechat
@@ -57,33 +60,16 @@ laptop_packages_list:
 laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.gui }} + {{ laptop_packages_list.fonts }}"
 
 laptop_flatpaks:
-  - org.audacityteam.Audacity
   - com.bitwarden.desktop
   - org.blender.Blender
-  - com.bluejeans.BlueJeans
   - com.calibre_ebook.calibre
-  - ca.desrt.dconf-editor
-  - com.getferdi.Ferdi
-  - org.gnome.Firmware
-  - com.axosoft.GitKraken
-  - fr.handbrake.ghb
-  - com.github.gijsgoudzwaard.image-optimizer
-  - org.kde.kdenlive
-  - com.makemkv.MakeMKV
-  - org.bunkus.mkvtoolnix-gui
   - com.obsproject.Studio
   - com.getpostman.Postman
   - com.prusa3d.PrusaSlicer
   - com.github.wwmm.pulseeffects
-  - org.remmina.Remmina
-  - org.signal.Signal
   - com.spotify.Client
-  - org.videolan.VLC
-  - us.zoom.Zoom
   - com.yubico.yubioath
-  - org.inkscape.Inkscape
   - org.pulseaudio.pavucontrol
-  - com.valvesoftware.Steam
 
 laptop_services:
   - cockpit.socket
@@ -134,10 +120,6 @@ dotfiles_enabled:
 
 gnome_extension_ids:
   - 15   # AlternateTab by fmuellner
-  - 921  # Multi Monitors Add-On by spin83
   - 234  # Steal My Focus by sstent
   - 906  # Sound Input & Output Device Chooser by kgshank
   - 118  # No Topleft Hot Corner by azuri
-  - 307  # Dash to Dock by michelle_g
-  - 1160 # Dash to Panel by jderose9
-  - 1228 # Arc Menu by LinxGem33

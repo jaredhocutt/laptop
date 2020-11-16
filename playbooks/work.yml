@@ -29,17 +29,32 @@
     - role: jaredhocutt.insync
       tags: [insync]
 
+    - role: jaredhocutt.ferdi
+      tags: [ferdi]
+
+    - role: jaredhocutt.gitkraken
+      tags: [gitkraken]
+
     - role: jaredhocutt.gnome_extensions
       tags: [gnome_extensions]
 
-    - role: jaredhocutt.google_chrome
-      tags: [google_chrome]
+    - role: jaredhocutt.handbrake
+      tags: [handbrake]
+
+    # - role: jaredhocutt.kdenlive
+    #   tags: [kdenlive]
+
+    # - role: jaredhocutt.obs_studio
+    #   tags: [obs_studio]
 
     - role: jaredhocutt.redhat_vpn
       tags: [redhat_vpn]
 
     - role: jaredhocutt.restic
       tags: [restic]
+
+    - role: jaredhocutt.vlc
+      tags: [vlc]
 
     - role: jaredhocutt.vscode
       tags: [vscode]
