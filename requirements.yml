@@ -47,6 +47,9 @@
 - src: jaredhocutt.restic
   version: v1.0
 
+- src: jaredhocutt.rpmfusion
+  version: v0.1.0
+
 - src: jaredhocutt.vlc
   version: v0.1.0
 

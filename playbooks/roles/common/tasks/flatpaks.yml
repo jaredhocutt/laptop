@@ -5,6 +5,7 @@
     name: flathub
     flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
     state: present
+  become: yes
 
 - name: Install flatpaks
   flatpak:

@@ -15,6 +15,7 @@ laptop_packages_list:
     - ffmpeg
     - git
     - git-lfs
+    - gphoto2
     - htop
     - iperf3
     - jq
@@ -31,6 +32,7 @@ laptop_packages_list:
     - smartmontools
     - sshuttle
     - tmux
+    - v4l-utils
     - vim
     - wget
     - zsh
@@ -44,7 +46,6 @@ laptop_packages_list:
     - hplip-gui
     - libreoffice-draw
     - mediawriter
-    - paper-icon-theme
     - remmina
     - tilix
     - virt-viewer
@@ -61,15 +62,11 @@ laptop_packages: "{{ laptop_packages_list.general }} + {{ laptop_packages_list.g
 
 laptop_flatpaks:
   - com.bitwarden.desktop
-  - org.blender.Blender
   - com.calibre_ebook.calibre
   - com.obsproject.Studio
   - com.getpostman.Postman
-  - com.prusa3d.PrusaSlicer
-  - com.github.wwmm.pulseeffects
   - com.spotify.Client
   - com.yubico.yubioath
-  - org.pulseaudio.pavucontrol
 
 laptop_services:
   - cockpit.socket
